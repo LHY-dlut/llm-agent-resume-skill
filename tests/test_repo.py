@@ -158,7 +158,7 @@ class RepositoryTests(unittest.TestCase):
     def test_behavior_specs_are_complete_and_labeled(self) -> None:
         text = read(ROOT / "tests/behavior-cases.md")
         ids = re.findall(r"^## (B\d{2}) —", text, re.MULTILINE)
-        self.assertEqual(ids, [f"B{i:02d}" for i in range(1, 21)])
+        self.assertEqual(ids, [f"B{i:02d}" for i in range(1, 23)])
         for part in re.split(r"^## B\d{2} —", text, flags=re.MULTILINE)[1:]:
             self.assertIn("输入", part)
             self.assertIn("期望：", part)

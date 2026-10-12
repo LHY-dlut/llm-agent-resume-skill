@@ -1,4 +1,4 @@
 interface:
   display_name: "LLM / Agent 项目简历"
   short_description: "将 RAG、Agent 与后训练项目材料整理为有证据、可追问的中文简历简介"
-  default_prompt: "使用 $llm-agent-resume，根据当前项目已有材料生成简洁的中文简历项目介绍，将事实核对备注单列。"
+  default_prompt: "使用 $llm-agent-resume，根据当前项目已有材料生成中文简历项目介绍，以实测指标量化成果并说明延迟/成本取舍，将事实核对备注单列。"
