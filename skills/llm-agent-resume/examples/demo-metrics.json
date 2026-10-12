@@ -1,0 +1,138 @@
+{
+  "synthetic": true,
+  "training_executed": false,
+  "questions_or_model_outputs_provided": false,
+  "warning": "DEMO ONLY. 合成字段演示，不是训练日志、真实评测或费用估算。不得复制为简历成果。",
+  "dataset": "DEMO-MATH-v1 (hypothetical)",
+  "eval_questions": 200,
+  "samples_per_question": 8,
+  "fixed_optimizer_steps": 1000,
+  "training_seeds": [
+    11,
+    23,
+    47
+  ],
+  "metric_units": {
+    "pass_at_1_pct": "percent",
+    "pass_at_8_pct": "percent",
+    "dev_threshold_steps": "optimizer_steps",
+    "gpu_hours": "GPU-hours"
+  },
+  "configs": {
+    "G0": [
+      {
+        "seed": 11,
+        "pass_at_1_pct": 39,
+        "pass_at_8_pct": 61,
+        "dev_threshold_steps": 780,
+        "gpu_hours": 10.0
+      },
+      {
+        "seed": 23,
+        "pass_at_1_pct": 40,
+        "pass_at_8_pct": 62,
+        "dev_threshold_steps": 800,
+        "gpu_hours": 10.4
+      },
+      {
+        "seed": 47,
+        "pass_at_1_pct": 41,
+        "pass_at_8_pct": 63,
+        "dev_threshold_steps": 820,
+        "gpu_hours": 10.8
+      }
+    ],
+    "G1": [
+      {
+        "seed": 11,
+        "pass_at_1_pct": 41,
+        "pass_at_8_pct": 64,
+        "dev_threshold_steps": 740,
+        "gpu_hours": 10.3
+      },
+      {
+        "seed": 23,
+        "pass_at_1_pct": 42,
+        "pass_at_8_pct": 65,
+        "dev_threshold_steps": 760,
+        "gpu_hours": 10.7
+      },
+      {
+        "seed": 47,
+        "pass_at_1_pct": 43,
+        "pass_at_8_pct": 66,
+        "dev_threshold_steps": 780,
+        "gpu_hours": 11.1
+      }
+    ],
+    "G2": [
+      {
+        "seed": 11,
+        "pass_at_1_pct": 43,
+        "pass_at_8_pct": 66,
+        "dev_threshold_steps": 540,
+        "gpu_hours": 10.7
+      },
+      {
+        "seed": 23,
+        "pass_at_1_pct": 44,
+        "pass_at_8_pct": 67,
+        "dev_threshold_steps": 560,
+        "gpu_hours": 11.1
+      },
+      {
+        "seed": 47,
+        "pass_at_1_pct": 45,
+        "pass_at_8_pct": 68,
+        "dev_threshold_steps": 580,
+        "gpu_hours": 11.5
+      }
+    ],
+    "G3": [
+      {
+        "seed": 11,
+        "pass_at_1_pct": 44,
+        "pass_at_8_pct": 69,
+        "dev_threshold_steps": 520,
+        "gpu_hours": 10.9
+      },
+      {
+        "seed": 23,
+        "pass_at_1_pct": 45,
+        "pass_at_8_pct": 70,
+        "dev_threshold_steps": 540,
+        "gpu_hours": 11.3
+      },
+      {
+        "seed": 47,
+        "pass_at_1_pct": 46,
+        "pass_at_8_pct": 71,
+        "dev_threshold_steps": 560,
+        "gpu_hours": 11.7
+      }
+    ],
+    "G4": [
+      {
+        "seed": 11,
+        "pass_at_1_pct": 46,
+        "pass_at_8_pct": 71,
+        "dev_threshold_steps": 500,
+        "gpu_hours": 11.1
+      },
+      {
+        "seed": 23,
+        "pass_at_1_pct": 47,
+        "pass_at_8_pct": 72,
+        "dev_threshold_steps": 520,
+        "gpu_hours": 11.5
+      },
+      {
+        "seed": 47,
+        "pass_at_1_pct": 48,
+        "pass_at_8_pct": 73,
+        "dev_threshold_steps": 540,
+        "gpu_hours": 11.9
+      }
+    ]
+  }
+}

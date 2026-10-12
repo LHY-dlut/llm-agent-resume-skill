@@ -1,0 +1,17 @@
+# Keep personal evidence, resumes, credentials and generated runtime artifacts private.
+.env
+.env.*
+!.env.example
+private/
+evidence-private/
+outputs/
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Optional local installation copies; canonical content lives under skills/.
+.agents/skills/llm-agent-resume/
+.claude/skills/llm-agent-resume/
